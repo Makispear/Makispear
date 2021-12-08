@@ -1,14 +1,35 @@
 import React from "react";
 
 function Nav() {
+  const navLinks = [
+    {
+      name: 'Home',
+      link: 'index.html'
+    },
+    {
+      name: 'About',
+      link: '#about'
+    },
+    {
+      name: 'Work',
+      link: '#work'
+    },
+    {
+      name: 'Contact',
+      link: '#contact'
+    }
+  ]
+
   return(
     <header>
       <nav>
         <ul>
-          <li><a data-testid="home" href="index.html">Home</a></li>
-          <li><a data-testid="about" href="#about">About</a></li>
-          <li><a data-testid="work" href="#work">Work</a></li>
-          <li><a data-testid="contact" href="#contact">Contact</a></li>
+          {navLinks.map(item => {
+            return(
+              <li key={item.name}><a data-testid={item.name.toLowerCase()} href={item.link}>{item.name}</a></li>
+            )
+          })
+          }
         </ul>
       </nav>
     </header>
