@@ -26,9 +26,13 @@ function Nav(props) {
     <header>
       <nav onScroll={navigation()}>
         <ul>
-          {navLinks.map(item => {
+          {navLinks.forEach(item => {
             return(
-              <li key={item.name}><a data-testid={item.name.toLowerCase()} className={`${ currentNavLink.name === item.name && `activeLink`}`} href={item.link} onClick={() => setNavLink(item)}>{item.name}</a></li>
+              <li key={item.name}>
+                <a data-testid={item.name.toLowerCase()} className={`${ currentNavLink.name === item.name && `activeLink`}`} href={item.link} onClick={() => setNavLink(item)}>
+                  {item.name}
+                </a>
+              </li>
             )
           })
           }
