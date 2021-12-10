@@ -27,7 +27,7 @@ function App() {
       }
   ]);
 
-  const [socialMedia] = [
+  const socialMedia = [
     {
       name: 'GitHub',
       src: 'github.png',
