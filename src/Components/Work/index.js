@@ -62,6 +62,11 @@ function Work() {
 
     const featured = projects.filter(project => project.featured)
     const notFeatured = projects.filter(project => !project.featured)
+
+    const goToRepositories = () => {
+        window.open('https://github.com/Makispear?tab=repositories', '_blank')
+    }
+
   return (
     <section id="work">
         <h2 className="section-title">My Work</h2>
@@ -114,7 +119,7 @@ function Work() {
             })
             }
         </div>
-        <button className="btn more">View All</button>
+        <button onClick={goToRepositories} className="btn more">View All</button>
     </section>
   )
 }

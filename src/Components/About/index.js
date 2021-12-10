@@ -5,22 +5,10 @@ function About() {
     <section id="about">
         <h2 data-testid="section-title" className="section-title">About Me</h2>
         <div>
-            <p className="underline">Hey! Welcome to my portfolio! I'm a Junior Full-Stack Web Developer currently enrolled in the University Of Connecticut (Uconn) Coding Bootcamp. The bootcamp was devided into three stages:</p>
-                <ul className="text-start underline">
-                    <li>
-                        <p className="text-tertiary">Front-End</p> 
-                        <p className="indent-40">For the Front-End I got to learn HTML, CSS and JS with some other third party APIs and frameworks.</p>
-                    </li>
-                    <li>
-                        <p className="text-tertiary">Back-End</p>
-                        <p className="indent-40">The Backend is where I discovered newer technologies like Node, Express and Databases and new concepts like OOP, TDD, MVC and more.</p>
-                    </li>
-                    <li>
-                        <p className="text-tertiary">Performance & computer science</p>
-                        <p className="indent-40">The last 2 months were focused on the MERN stack and enhancements/performance and algorithmic thinking</p>
-                    </li>                    
-                </ul>
-            <p data-testid="education">University of Connecticut certified Full-Stack Web Developer</p>
+            <p className="underline">Hey! Welcome to my portfolio! My name is Maki (Pronounced Mekki), and I'm a Junior Full-Stack Web Developer</p>
+            <p className="underline">"About me" is the section where I try to impress you a bit and give you a glimpse of why I do what I do. On July 15th, 2021 when I was 22 years old, I decided to become a web developer. Before that, I had already dropped out of college... twice. The reason behind that was I was still finding myself and my passion (It's confusing to know what you want when you're inexperienced and everything seems like a good option). I applied for architectural engineering and found out after one semester it wasn't for me. I quickly decided to switch to Physical Therapy to become a PT. I enjoyed it but the typical day of a Physical Therapist didn't appeal to me. That's also one of the downsides of being inexperienced and clueless. One Day around November 2019, my friend was sleeping over at my house, I realized he was doing a bunch of Lorem Ipsum-looking code on my computer (It was good code, but to me back then, it looked like German and Arabic combined). The Story began there! Fast Forward to today I have loved to code and create layouts, solutions, and features for people to use in their daily lives.</p>
+            <p data-testid="education" className="text-tertiary">University of Connecticut certified Full-Stack Web Developer</p>
+            {/* <p>Learn more about my Certificate journey <a href="#" className="text-tertiary">here!</a></p> */}
         </div>
     </section>
   )

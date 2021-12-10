@@ -1,32 +1,34 @@
-import React from "react";
+import React, { useEffect } from "react";
 
-function Nav() {
-  const navLinks = [
-    {
-      name: 'Home',
-      link: 'index.html'
-    },
-    {
-      name: 'About',
-      link: '#about'
-    },
-    {
-      name: 'Work',
-      link: '#work'
-    },
-    {
-      name: 'Contact',
-      link: '#contact'
+function Nav(props) {
+  const {
+    navLinks,
+    currentNavLink,
+    setNavLink
+  } = props;
+
+  useEffect(() => document.title = `${currentNavLink.name} - Maki`, [currentNavLink])
+
+  const navigation = () => {
+    let prevScrollPos = window.pageYOffset;
+    window.onscroll = () => {
+      let currentScrollPos = window.pageYOffset;
+      if (prevScrollPos > currentScrollPos) {
+        document.getElementsByTagName('header')[0].style.top = "0";
+      } else {
+        document.getElementsByTagName('header')[0].style.top = "-500px";
+      }
+      prevScrollPos = currentScrollPos;
     }
-  ]
+  }
 
   return(
     <header>
-      <nav>
+      <nav onScroll={navigation()}>
         <ul>
           {navLinks.map(item => {
             return(
-              <li key={item.name}><a data-testid={item.name.toLowerCase()} href={item.link}>{item.name}</a></li>
+              <li key={item.name}><a data-testid={item.name.toLowerCase()} className={`${ currentNavLink.name === item.name && `activeLink`}`} href={item.link} onClick={() => setNavLink(item)}>{item.name}</a></li>
             )
           })
           }
