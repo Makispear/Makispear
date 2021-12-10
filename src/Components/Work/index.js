@@ -6,9 +6,10 @@ function Work() {
             className: 'anytime-books',
             deployed_website_link: "https://makispear.github.io/Anytime-Books/",
             title: "Anytime Books",
-            description: "My First Front-End Group Project",
+            description: 'My First Front-End Group Project',
             featured: true,
-            tags: ['HTML', 'CSS', 'Bulma', 'JS', 'API']
+            tags: ['HTML', 'CSS', 'Bulma', 'JS', 'API'],
+            testId: 'anytimebooks'
         },
         {
             className: 'homeroom',
@@ -16,7 +17,8 @@ function Work() {
             title: "HomeRoom",
             description: "My First Full-Stack Group Project",
             featured: false,
-            tags: ['SQL', 'Node', 'Express', 'ORM (Sequelize)']
+            tags: ['SQL', 'Node', 'Express', 'ORM (Sequelize)'],
+            testId: 'homeroom'
         },
         {
             className: "run-buddy",
@@ -24,7 +26,8 @@ function Work() {
             title: 'Run Buddy',
             description: 'My First Complete Landing Page',
             featured: false,
-            tags: ['HTML', 'CSS']
+            tags: ['HTML', 'CSS'],
+            testId: 'runbuddy'
         },
         {
             className: 'weather-app',
@@ -32,7 +35,8 @@ function Work() {
             title: 'Weather App',
             description: 'An application for weather forecasting',
             featured: false,
-            tags: ['Js', 'Open Weather API', 'Bootstrap 5']
+            tags: ['Js', 'Open Weather API', 'Bootstrap 5'],
+            testId: 'weatherapp'
         },
         {
             className: 'star-wars',
@@ -40,7 +44,8 @@ function Work() {
             title: 'Star Wars API',
             description: 'An Application for searching for Star Wars characters and their information',
             featured: false,
-            tags: ['jQuery', 'Star Wars API']
+            tags: ['jQuery', 'Star Wars API'],
+            testId: 'startwars'
         },
         {
             className: 'timed-coding-quiz',
@@ -48,7 +53,8 @@ function Work() {
             title: 'Timed Coding Quiz',
             description: 'An Application for testing coding skills',
             featured: false,
-            tags: ['JS', 'DOM Manipulation']
+            tags: ['JS', 'DOM Manipulation'],
+            testId: 'timedcodingquiz'
         },
         {
             className: 'work-day-scheduler',
@@ -56,7 +62,8 @@ function Work() {
             title: 'Work Day Scheduler',
             description: 'An App for organizing workdays',
             featured: false,
-            tags: ['jQuery', 'Moment js', 'Bootstrap 5']
+            tags: ['jQuery', 'Moment js', 'Bootstrap 5'],
+            testId: 'workdayscheduler'
         }
     ]
 
@@ -73,10 +80,10 @@ function Work() {
         <div id="projectsContainer">
             {featured.map(project => {
                 return (
-                    <a href={`${project.deployed_website_link}`} rel="noopener noreferrer"  target="_blank" className={`grid-children ${project.className}`}>
+                    <a key={project.testId} href={project.deployed_website_link} rel="noopener noreferrer"  target="_blank" className={`grid-children ${project.className}`}>
                         <div className="project-tags">
-                            <h3>{`${project.title}`}</h3>
-                            <p>{`${project.description}`}</p>
+                            <h3 data-testid={project.testId}>{project.title}</h3>
+                            <p>{project.description}</p>
                             <p>
                                 {
                                     project.tags.map(item => {
@@ -96,16 +103,16 @@ function Work() {
             }
             {notFeatured.map(project => {
                 return (
-                  <a href={`${project.deployed_website_link}`} rel="noopener noreferrer"  target="_blank" className={`grid-children ${project.className}`}>
+                  <a key={project.testId} href={project.deployed_website_link} rel="noopener noreferrer"  target="_blank" className={`grid-children ${project.className}`}>
                         <div className="project-tags">
-                            <h3>{`${project.title}`}</h3>
-                            <p>{`${project.description}`}</p>
+                            <h3 data-testid={project.testId}>{project.title}</h3>
+                            <p>{project.description}</p>
                             <p>
                                 {
                                     project.tags.map(item => {
                                         return (
                                             <span className="text-tertiary">
-                                                {`${item}`} 
+                                                {item} 
                                                 <span>| </span> 
                                             </span>
                                         )
@@ -119,7 +126,7 @@ function Work() {
             })
             }
         </div>
-        <button onClick={goToRepositories} className="btn more">View All</button>
+        <button data-testid="viewAll" onClick={goToRepositories} className="btn more">View All</button>
     </section>
   )
 }
