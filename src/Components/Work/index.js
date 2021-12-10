@@ -64,7 +64,7 @@ function Work() {
     const notFeatured = projects.filter(project => !project.featured)
 
     const goToRepositories = () => {
-        window.open('https://github.com/Makispear?tab=repositories', '_blank')
+        window.open('https://github.com/Makispear?tab=repositories', '_blank', 'noopener')
     }
 
   return (
@@ -73,7 +73,7 @@ function Work() {
         <div id="projectsContainer">
             {featured.map(project => {
                 return (
-                    <a target="_blank" className={`grid-children ${project.className}`} href={`${project.deployed_website_link}`}>
+                    <a href={`${project.deployed_website_link}`} rel="noopener noreferrer"  target="_blank" className={`grid-children ${project.className}`}>
                         <div className="project-tags">
                             <h3>{`${project.title}`}</h3>
                             <p>{`${project.description}`}</p>
@@ -82,7 +82,7 @@ function Work() {
                                     project.tags.map(item => {
                                         return (
                                             <span className="text-tertiary">
-                                                {`${item}`} 
+                                                {item} 
                                                 <span>| </span> 
                                             </span>
                                         )
@@ -96,7 +96,7 @@ function Work() {
             }
             {notFeatured.map(project => {
                 return (
-                    <a target="_blank" className={`grid-children ${project.className}`} href={`${project.deployed_website_link}`}>
+                  <a href={`${project.deployed_website_link}`} rel="noopener noreferrer"  target="_blank" className={`grid-children ${project.className}`}>
                         <div className="project-tags">
                             <h3>{`${project.title}`}</h3>
                             <p>{`${project.description}`}</p>

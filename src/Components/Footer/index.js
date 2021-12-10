@@ -13,7 +13,7 @@ function Footer(props) {
           {socialMedia.map(item => {
               return (
                 <li>
-                    <a target="_blank" href={item.href} key={item.name.toLowerCase()}>
+                    <a target="_blank" href={item.href} rel="noreferrer" key={item.name.toLowerCase()}>
                         <img title={item.name} className="logos" id={item.name.toLowerCase()} src={require(`../../assets/images/${item.src}`).default } alt={item.name} />
                     </a>
                 </li>

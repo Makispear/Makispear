@@ -3,7 +3,24 @@ import { render, cleanup } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
 import Nav from '..';
 
-const mockNavLinks = jest.fn();
+const mockNavLinks = [
+  {
+    name: 'Home',
+    link: '#home'
+  },
+  {
+    name: 'About',
+    link: '#about'
+  },
+  {
+    name: 'Work',
+    link: '#work'
+  },
+  {
+    name: 'Contact',
+    link: '#contact'
+  }
+];
 const mockCurrentNavLink = jest.fn();
 const mockSetCurrentNavLink = jest.fn();
 
