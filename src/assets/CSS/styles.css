@@ -37,7 +37,7 @@ header {
 	width: 100%;
 	height: clamp(100px, 100px, auto);
 	padding: 30px;
-    background-color: rgba(var(--black), 0.5);
+    background-color: rgba(var(--black), 0.3);
 	position: sticky;
 	/* position: fixed; */
 	display: flex;
@@ -172,7 +172,7 @@ h1 {
     background-color: rgba(var(--grey), 0.5);
     background-image: url('../images/circle.png');
     background-repeat: repeat;
-    background-position: right;
+    background-position: center;
 }
 
 #about::before {
@@ -180,10 +180,9 @@ h1 {
     content: '';
     width: 50px;
     height: 50px;
-    top: 50%;
+    top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 0;
     background-color: rgba(var(--black));
     border-radius: 50%;
 }
@@ -197,11 +196,12 @@ h1 {
 }
 
 .section-title {
-    display: block;
+    /* display: block; */
     font-size: 2rem;
     text-align: center;
     padding: 30px;
     width: 100%;
+    z-index: 10;
 }
 
 #about div {
@@ -261,12 +261,10 @@ h1 {
     position: relative;
     height: 150px;
     display: flex;
-    /* border: 5px solid rgba(var(--tertiary-color), 1); */
     border-radius: 5px;
     overflow: hidden;
     background-position: center;
     transition: border 0.2s;
-    /* box-shadow: 20px 20px 20px black; */
 }
 
 .grid-children::before {
@@ -286,10 +284,10 @@ h1 {
     padding: 5px;
     text-shadow: 1px 1px rgba(var(--black), 1);
     background-color: rgba(var(--black), 0.9);
+    border: 5px solid rgb(var(--tertiary-color));
     border-radius: 0px 10px 10px 0px;
     left: 0;
     bottom: 10px;
-    /* z-index: 2; */
 }
 
 .anytime-books {
@@ -342,8 +340,10 @@ h1 {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    background-image: url('../images/elegent.webp');
+    min-height: 100vh;
+    background-image: url('../images/elegent2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
 }
 
@@ -359,6 +359,23 @@ h1 {
     background-color: rgba(var(--black));
     outline: -5px rgba(var(--secondary-color));
     position: relative;
+    z-index: 1;
+    overflow: unset;
+    box-shadow: 10px 10px 10px black;
+    margin: 20px 0;
+}
+
+#contact form::before {
+    position: absolute;
+    content: '';
+    background-color: rgba(0, 0, 0, 0);
+    border: 6px solid black;
+    width: 100px;
+    height: 100px;
+    left: 46%;
+    top: 10%;
+    transform: rotate(45deg) translate(-90%, -60%);
+    z-index: -2;
 }
 
 
@@ -391,6 +408,7 @@ h1 {
 #contact form textarea {
     resize: vertical;
     min-height: 200px;
+    max-height: 500px;
     background-color: rgba(var(--secondary-color), 1);
     color: rgba(var(--black));
     padding: 10px;
@@ -544,7 +562,9 @@ footer h3 {
     .grid-children {
         gap: 20px;
         height: 300px;
-        border: 5px solid rgba(var(--secondary-color), 1);
+        /* border: 5px 5px 10px 5px; */
+        /* border-color: rgba(var(--black), 1); */
+        border: 10px solid rgba(var(--white), 1);
         box-shadow: 20px 20px 20px black;
     }
 
