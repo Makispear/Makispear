@@ -335,11 +335,12 @@ h1 {
     background-color: rgba(var(--tertiary-color));
     color: rgba(var(--black), 1);
     font-weight: bold;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     text-decoration: none;
     transition: background-color 0.1s, color 0.1s;
     cursor: pointer;
     box-shadow: 10px 10px 20px rgba(var(--black));
+    width: max-content;
 }
 
 .btn:hover {
@@ -394,6 +395,7 @@ h1 {
 #contact form label {
     color: rgb(var(--tertiary-color));
     padding: 5px 0;
+    font-size: 1.5rem;
 }
 
 #contact form input {
@@ -402,7 +404,6 @@ h1 {
     font-family: sans-serif;
     background-color: rgba(var(--secondary-color), 1);
     border-radius: 5px;
-    box-shadow: 20px 20px 20px rgba(var(--black));
 }
 
 #contact form textarea {
@@ -413,7 +414,6 @@ h1 {
     color: rgba(var(--black));
     padding: 10px;
     border-radius: 5px;
-    box-shadow: 20px 20px 20px rgba(var(--black));
 }
 
 /* FOOTER  */
