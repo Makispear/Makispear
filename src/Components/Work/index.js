@@ -67,9 +67,6 @@ function Work() {
         }
     ]
 
-    const featured = projects.filter(project => project.featured)
-    const notFeatured = projects.filter(project => !project.featured)
-
     const goToRepositories = () => {
         window.open('https://github.com/Makispear?tab=repositories', '_blank', 'noopener')
     }
