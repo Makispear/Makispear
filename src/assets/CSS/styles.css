@@ -195,6 +195,7 @@ h1 {
 
 #about .about-container {
     padding: 10px;
+    margin-bottom: 100px;
 }
 
 #about img {
@@ -426,6 +427,7 @@ footer {
     align-items: center;
     background-color: rgba(var(--black), 1);
     text-align: center;
+    padding: 10px;
 }
 
 footer * {
@@ -434,16 +436,21 @@ footer * {
 
 footer .social-media-div {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
+    width: 300px;
+    text-align: center;
 }
 
 .social-media-div > * {
     margin: 10px;
 }
 
+
 footer ul {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: space-around;
+
 }
 
 footer li {
@@ -456,7 +463,7 @@ footer li {
 }
 
 footer h3 {
-    bottom: 20px;
+    /* bottom: 20px; */
     color: rgba(var(--secondary-color), 1) !important;
 
 }
