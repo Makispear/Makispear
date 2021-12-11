@@ -289,6 +289,10 @@ h1 {
     align-self: end;
 }
 
+.grid-children .project-tags {
+    bottom: 0;
+}
+
 .featured {
     grid-column: 1 / -1;
 }

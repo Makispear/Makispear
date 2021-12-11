@@ -11,7 +11,7 @@ function App() {
   const [navLinks] = useState([
       {
         name: 'Maki A.',
-        link: '#home',
+        link: '/',
       },
       {
         name: 'About',
