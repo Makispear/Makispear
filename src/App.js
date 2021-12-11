@@ -10,15 +10,15 @@ import Work from './Components/Work';
 function App() {
   const [navLinks] = useState([
       {
-        name: 'Home',
-        link: '#home'
+        name: 'Maki A.',
+        link: '#home',
       },
       {
         name: 'About',
         link: '#about'
       },
       {
-        name: 'Work',
+        name: 'Portfolio',
         link: '#work'
       },
       {
@@ -62,7 +62,7 @@ function App() {
       <>
       <main>
         {
-           currentNavLink.name === 'Home' && (
+           currentNavLink.name === 'Maki A.' && (
              <Hero />
            )
         }
@@ -72,7 +72,7 @@ function App() {
            )
         }
         {
-           currentNavLink.name === 'Work' && (
+           currentNavLink.name === 'Portfolio' && (
              <Work />
            )
         }

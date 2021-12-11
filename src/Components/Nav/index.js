@@ -36,6 +36,11 @@ function Nav(props) {
             )
           })
           }
+              <li>
+                <a href="https://docs.google.com/document/d/19oAYhEPgCVjrLpnihI6UHiZktfxi5N2BJEhqOsNpzsg/edit?usp=sharing" target="_blank">
+                  Resume
+                </a>
+              </li>
         </ul>
       </nav>
     </header>
