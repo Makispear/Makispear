@@ -133,7 +133,7 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
-    border: 20px solid rgb(63, 35, 3);
+    border: 1em solid rgb(63, 35, 3);
     box-shadow: 10px 10px 20px black;
 }
 
@@ -193,14 +193,26 @@ h1 {
     background-color: rgba(var(--secondary-color), 1);
 }
 
-#about div {
+#about .about-container {
+    padding: 10px;
+}
+
+#about img {
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+    border: 1em solid rgb(63, 35, 3);
+    box-shadow: 10px 10px 20px black;
+}
+
+#about .about-container > div:last-child {
     text-align: center;
     min-width: 270px;
     width: 95%;
     max-width: 900px;
     background-color: rgba(var(--black), 0.7);
     backdrop-filter: blur(1px);
-    padding: 0rem;
+    padding: 1em;
 }
 
 .text-center {
@@ -257,7 +269,6 @@ h1 {
     min-height: 300px;
     box-shadow: 10px 10px 20px rgba(var(--black));
     position: relative;
-    /* z-index: 2; */
 }
 
 .grid-children:before {
@@ -273,6 +284,7 @@ h1 {
     border: 3px solid rgba(var(--secondary-color), 1);
     transform: rotate(45deg);
     z-index: -1;
+    box-shadow: 10px 10px 20px rgba(var(--black));
 }
 
 .project-tags {
@@ -287,10 +299,6 @@ h1 {
     flex-flow: column nowrap;
     justify-content: space-around;
     align-self: end;
-}
-
-.grid-children .project-tags {
-    bottom: 0;
 }
 
 .featured {
@@ -494,22 +502,6 @@ footer h3 {
         height: auto;
         width: 600px;
     }
-
-    /* work  */
-    /* #projectsContainer {
-        width: 95%;
-        display: flex;
-        height: auto;
-        flex-flow: wrap row;
-        gap: 15px;
-        justify-content: center;
-        text-align: center;
-        text-decoration: none;
-    }
-
-    #projectsContainer > a {
-        width: 45%;
-    } */
 }
 
 @media only screen and (min-width: 992px) {
@@ -517,43 +509,6 @@ footer h3 {
     #hero h1 {
         font-size: 8rem;
     }
-
-
-    /* WORK  */
-    /* #projectsContainer {
-        width: 100%;
-        display: flex;
-        height: auto;
-        flex-flow: wrap row;
-        gap: 20px;
-        justify-content: center;
-        text-align: center;
-        text-decoration: none;
-        position: relative;
-    }
-
-    #projectsContainer > a:not(:first-child) {
-        width: 45%;
-    }
-
-    .grid-children {
-        gap: 20px;
-        height: 300px;
-        border: 10px solid rgba(var(--white), 1);
-        box-shadow: 20px 20px 20px black;
-    }
-
-    .grid-children::before {
-        background-color: rgba(var(--black), 0.3);
-        transition: background-color 0.3s;
-    }
-    .grid-children:hover::before {
-        background-color: rgba(var(--black), 0);
-    }
-    
-    #projectsContainer > a:first-child {
-        width: 91%;
-    } */
 
     /* CONTACT  */
 
