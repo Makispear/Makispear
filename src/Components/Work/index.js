@@ -5,6 +5,7 @@ function Work() {
         {
             className: 'anytime-books',
             deployed_website_link: "https://makispear.github.io/Anytime-Books/",
+            repo: 'https://github.com/Makispear/Anytime-Books',
             title: "Anytime Books",
             description: 'My First Front-End Group Project',
             featured: true,
@@ -14,6 +15,7 @@ function Work() {
         {
             className: 'homeroom',
             deployed_website_link: "https://homeroomportal.herokuapp.com/",
+            repo: 'https://github.com/michellewehr/homeroom',
             title: "HomeRoom",
             description: "My First Full-Stack Group Project",
             featured: true,
@@ -23,6 +25,7 @@ function Work() {
         {
             className: "run-buddy",
             deployed_website_link: 'https://makispear.github.io/run-buddy/',
+            repo: 'https://github.com/Makispear/run-buddy',
             title: 'Run Buddy',
             description: 'My First Complete Landing Page',
             featured: false,
@@ -32,6 +35,7 @@ function Work() {
         {
             className: 'weather-app',
             deployed_website_link: 'https://makispear.github.io/Weather-App/',
+            repo: 'https://github.com/Makispear/Weather-App',
             title: 'Weather App',
             description: 'An application for weather forecasting',
             featured: false,
@@ -41,6 +45,7 @@ function Work() {
         {
             className: 'star-wars',
             deployed_website_link: 'https://makispear.github.io/Star-Wars/',
+            repo: 'https://github.com/Makispear/Star-Wars',
             title: 'Star Wars API',
             description: 'An Application for searching for Star Wars characters and their information',
             featured: false,
@@ -50,6 +55,7 @@ function Work() {
         {
             className: 'timed-coding-quiz',
             deployed_website_link: 'https://makispear.github.io/Timed-Coding-Quiz-/',
+            repo: 'https://github.com/Makispear/Timed-Coding-Quiz-',
             title: 'Timed Coding Quiz',
             description: 'An Application for testing coding skills',
             featured: false,
@@ -59,6 +65,7 @@ function Work() {
         {
             className: 'work-day-scheduler',
             deployed_website_link: 'https://makispear.github.io/Daily-Planner-Calandar/',
+            repo: 'https://github.com/Makispear/Daily-Planner-Calandar',
             title: 'Work Day Scheduler',
             description: 'An App for organizing workdays',
             featured: false,
@@ -89,10 +96,15 @@ function Work() {
                                 return (
                                     <span className="text-tertiary">
                                       {item} 
-                                      <span>| </span> 
+                                      <span> | </span> 
                                     </span>
                                 )
                               })}
+                          </p>
+                          <p className="repo-link">
+                            <a target="_blank" href={project.repo} rel="noopener noreferrer">
+                              <img title={`github repo for ${project.title}`} className="logos" src={require(`../../assets/images/github.png`).default } alt={`github logo linking to ${project.title}`} />
+                            </a>
                           </p>
                       </div>
                   </a>
@@ -110,10 +122,15 @@ function Work() {
                                 return (
                                     <span className="text-tertiary">
                                       {item} 
-                                      <span>| </span> 
+                                      <span> | </span> 
                                     </span>
                                 )
                               })}
+                          </p>
+                          <p  className="repo-link">
+                          <a target="_blank" href={project.repo} rel="noopener noreferrer">
+                              <img title={`github repo for ${project.title}`} className="logos" src={require(`../../assets/images/github.png`).default } alt={`github logo linking to ${project.title}`} />
+                            </a>
                           </p>
                       </div>
                   </a>

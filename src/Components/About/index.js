@@ -6,7 +6,7 @@ function About() {
         <h2 data-testid="section-title" className="section-title">About Me</h2>
         <div className="about-container">
           <div>
-            <img src={require(`../../assets/images/me.jpg`).default } />
+            <img src={require(`../../assets/images/me.jpg`).default } alt="Maki A smiling with trees in the back"/>
           </div>
           <div>
             <p className="underline">Hey! Welcome to my portfolio! My name is Maki (Pronounced Mekki), and I'm a Junior Full-Stack Web Developer</p>
