@@ -17,30 +17,26 @@ function Contact() {
   const handleChange = (e) => {
     if (e.target.name === 'name') {
       // isValid conditional statement
-        if (!e.target.value.length) {
+        if (!e.target.value.trim().length) {
           setNameError(`Name is required.`);
         } else {
           setNameError('');
         }
     }
 
-
     if (e.target.name === 'message') {
       // isValid conditional statement
-        if (!e.target.value.length) {
+        if (!e.target.value.trim().length) {
           setMessageError(`Message is required.`);
         } else {
           setMessageError('');
         }
     }
 
-
-
-
     if (e.target.name === 'email') {
-      const isValid = validateEmail(e.target.value);
+      const isValid = validateEmail(e.target.value.trim());
 
-      if (!e.target.value.length) {
+      if (!e.target.value.trim().length) {
         setEmailError(`Email is required.`);
       } else {
         setEmailError('');
@@ -67,7 +63,7 @@ function Contact() {
             </div>
           )}
             <label htmlFor="name" defaultValue={name}>Name:</label>
-            <input name="name"onBlur={handleChange} onKeyDown={handleChange} />
+            <input name="name"onBlur={handleChange} onChange={handleChange} />
           </div>
           <div>
           {emailError && (
@@ -76,7 +72,7 @@ function Contact() {
             </div>
           )}
             <label htmlFor="email" defaultValue={email}>Email:</label>
-            <input name="email" onBlur={handleChange} onKeyDown={handleChange} />
+            <input name="email" onBlur={handleChange} onChange={handleChange} />
           </div>
           <div>
           {messageError && (
@@ -85,7 +81,7 @@ function Contact() {
             </div>
           )}
             <label htmlFor="message" defaultValue={message}>Message:</label>
-            <textarea name="message" onBlur={handleChange} onKeyDown={handleChange} />
+            <textarea name="message" onBlur={handleChange} onChange={handleChange} />
           </div>
           
           <button className='btn' type="submit">Submit</button>
