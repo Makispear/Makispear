@@ -262,9 +262,6 @@ h1 {
     position: relative;
 }
 
-#projectsContainer> a {
-    cursor: zoom-in;
-}
 
 .grid-children {
     height: 150px;
@@ -313,12 +310,8 @@ h1 {
     z-index: 10;
 }
 
-.grid-children:hover {
-    
-}
 
 .repo-link {
-    /* background-color: rgb(var(--black)); */
     border-radius: 5px;
     margin: 10px;
 }
