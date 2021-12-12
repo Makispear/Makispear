@@ -5,7 +5,9 @@ function Contact() {
 
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
   const { name, email, message } = formState;
-  const [errorMessage, setErrorMessage] = useState('');
+  const [emailError, setEmailError] = useState('');
+  const [nameError, setNameError] = useState('');
+  const [messageError, setMessageError] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -13,23 +15,44 @@ function Contact() {
   }
 
   const handleChange = (e) => {
+    if (e.target.name === 'name') {
+      // isValid conditional statement
+        if (!e.target.value.length) {
+          setNameError(`Name is required.`);
+        } else {
+          setNameError('');
+        }
+    }
+
+
+    if (e.target.name === 'message') {
+      // isValid conditional statement
+        if (!e.target.value.length) {
+          setMessageError(`Message is required.`);
+        } else {
+          setMessageError('');
+        }
+    }
+
+
+
 
     if (e.target.name === 'email') {
       const isValid = validateEmail(e.target.value);
-      // isValid conditional statement
-      if (!isValid) {
-        setErrorMessage('Your email is invalid.');
+
+      if (!e.target.value.length) {
+        setEmailError(`Email is required.`);
       } else {
-        if (!e.target.value.length) {
-          setErrorMessage(`${e.target.name} is required.`);
-        } else {
-          setErrorMessage('');
+        setEmailError('');
+        if (!isValid) {
+          setEmailError('Your email is invalid.');
         }
       }
+      if (!emailError) {
+        setFormState({ ...formState, [e.target.name]: e.target.value });
+      }
     } 
-    if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
-    }
+    
   }
 
 
@@ -38,21 +61,31 @@ function Contact() {
         <h2 className="section-title">Contact</h2>
         <form id='contactForm' className="contact-form" onSubmit={handleSubmit}>
           <div>
+          {nameError && (
+            <div>
+              <p className="error-text">{nameError}</p>
+            </div>
+          )}
             <label htmlFor="name" defaultValue={name}>Name:</label>
-            <input name="name"onBlur={handleChange} />
+            <input name="name"onBlur={handleChange} onKeyDown={handleChange} />
           </div>
           <div>
-          {errorMessage && (
+          {emailError && (
             <div>
-              <p className="error-text">{errorMessage}</p>
+              <p className="error-text">{emailError}</p>
             </div>
           )}
             <label htmlFor="email" defaultValue={email}>Email:</label>
-            <input name="email" onBlur={handleChange} />
+            <input name="email" onBlur={handleChange} onKeyDown={handleChange} />
           </div>
           <div>
+          {messageError && (
+            <div>
+              <p className="error-text">{messageError}</p>
+            </div>
+          )}
             <label htmlFor="message" defaultValue={message}>Message:</label>
-            <textarea name="message" onBlur={handleChange} />
+            <textarea name="message" onBlur={handleChange} onKeyDown={handleChange} />
           </div>
           
           <button className='btn' type="submit">Submit</button>
