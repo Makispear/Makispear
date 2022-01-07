@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Makispear/static/css/main.ccd7c751.chunk.css",
+    "main.js": "/Makispear/static/js/main.23a57214.chunk.js",
+    "main.js.map": "/Makispear/static/js/main.23a57214.chunk.js.map",
+    "runtime-main.js": "/Makispear/static/js/runtime-main.efad1b5e.js",
+    "runtime-main.js.map": "/Makispear/static/js/runtime-main.efad1b5e.js.map",
+    "static/js/2.0ed0998b.chunk.js": "/Makispear/static/js/2.0ed0998b.chunk.js",
+    "static/js/2.0ed0998b.chunk.js.map": "/Makispear/static/js/2.0ed0998b.chunk.js.map",
+    "static/js/3.75493c0a.chunk.js": "/Makispear/static/js/3.75493c0a.chunk.js",
+    "static/js/3.75493c0a.chunk.js.map": "/Makispear/static/js/3.75493c0a.chunk.js.map",
+    "index.html": "/Makispear/index.html",
+    "static/css/main.ccd7c751.chunk.css.map": "/Makispear/static/css/main.ccd7c751.chunk.css.map",
+    "static/js/2.0ed0998b.chunk.js.LICENSE.txt": "/Makispear/static/js/2.0ed0998b.chunk.js.LICENSE.txt",
+    "static/media/anytimeBooks.jpg": "/Makispear/static/media/anytimeBooks.c6fd17f9.jpg",
+    "static/media/calculator.jpg": "/Makispear/static/media/calculator.52c6952a.jpg",
+    "static/media/dailycallendar.jpg": "/Makispear/static/media/dailycallendar.44ea0e88.jpg",
+    "static/media/elegent.webp": "/Makispear/static/media/elegent.a62b5233.webp",
+    "static/media/herome.jpg": "/Makispear/static/media/herome.c9c8811d.jpg",
+    "static/media/homeroom.jpg": "/Makispear/static/media/homeroom.07dbe529.jpg",
+    "static/media/kindly.jpg": "/Makispear/static/media/kindly.2d64020a.jpg",
+    "static/media/led-wall.jpg": "/Makispear/static/media/led-wall.8a2d02cf.jpg",
+    "static/media/me.jpg": "/Makispear/static/media/me.ea6e1de1.jpg",
+    "static/media/outlook.svg": "/Makispear/static/media/outlook.9948b3ce.svg",
+    "static/media/react.png": "/Makispear/static/media/react.44319306.png",
+    "static/media/runnbudyimagejpg.jpg": "/Makispear/static/media/runnbudyimagejpg.6826b0ec.jpg",
+    "static/media/starwars.jpg": "/Makispear/static/media/starwars.401b0b95.jpg",
+    "static/media/timedcdoingquiz.jpg": "/Makispear/static/media/timedcdoingquiz.799804ea.jpg",
+    "static/media/weatherappscreenshot.jpg": "/Makispear/static/media/weatherappscreenshot.2c4a0072.jpg",
+    "static/media/whatsapp.png": "/Makispear/static/media/whatsapp.a98ba595.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.efad1b5e.js",
+    "static/js/2.0ed0998b.chunk.js",
+    "static/css/main.ccd7c751.chunk.css",
+    "static/js/main.23a57214.chunk.js"
+  ]
+}
