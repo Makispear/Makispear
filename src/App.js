@@ -9,22 +9,22 @@ import Work from './Components/Work';
 
 function App() {
   const [navLinks] = useState([
-      {
-        name: 'Maki A.',
-        link: '/',
-      },
-      {
-        name: 'About',
-        link: '#about'
-      },
-      {
-        name: 'Portfolio',
-        link: '#work'
-      },
-      {
-        name: 'Contact',
-        link: '#contact'
-      }
+    {
+      name: 'Maki A.',
+      link: '#home',
+    },
+    {
+      name: 'About',
+      link: '#about'
+    },
+    {
+      name: 'Portfolio',
+      link: '#work'
+    },
+    {
+      name: 'Contact',
+      link: '#contact'
+    }
   ]);
 
   const socialMedia = [
@@ -50,38 +50,38 @@ function App() {
     }
   ]
 
-  const [ currentNavLink, setNavLink ] = useState(navLinks[0]);
+  const [currentNavLink, setNavLink] = useState(navLinks[0]);
 
   return (
     <div>
-      <Nav 
+      <Nav
         navLinks={navLinks}
         currentNavLink={currentNavLink}
         setNavLink={setNavLink}
       />
       <>
-      <main>
-        {
-           currentNavLink.name === 'Maki A.' && (
-             <Hero />
-           )
-        }
-        {
-           currentNavLink.name === 'About' && (
-             <About />
-           )
-        }
-        {
-           currentNavLink.name === 'Portfolio' && (
-             <Work />
-           )
-        }
-        {
-           currentNavLink.name === 'Contact' && (
-             <Contact />
-           )
-        }
-      </main>
+        <main>
+          {
+            currentNavLink.name === 'Maki A.' && (
+              <Hero />
+            )
+          }
+          {
+            currentNavLink.name === 'About' && (
+              <About />
+            )
+          }
+          {
+            currentNavLink.name === 'Portfolio' && (
+              <Work />
+            )
+          }
+          {
+            currentNavLink.name === 'Contact' && (
+              <Contact />
+            )
+          }
+        </main>
       </>
       <Footer
         socialMedia={socialMedia}
