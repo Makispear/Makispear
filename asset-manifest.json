@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Makispear/static/css/main.ccd7c751.chunk.css",
-    "main.js": "/Makispear/static/js/main.23a57214.chunk.js",
-    "main.js.map": "/Makispear/static/js/main.23a57214.chunk.js.map",
+    "main.js": "/Makispear/static/js/main.3696143f.chunk.js",
+    "main.js.map": "/Makispear/static/js/main.3696143f.chunk.js.map",
     "runtime-main.js": "/Makispear/static/js/runtime-main.efad1b5e.js",
     "runtime-main.js.map": "/Makispear/static/js/runtime-main.efad1b5e.js.map",
     "static/js/2.0ed0998b.chunk.js": "/Makispear/static/js/2.0ed0998b.chunk.js",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.efad1b5e.js",
     "static/js/2.0ed0998b.chunk.js",
     "static/css/main.ccd7c751.chunk.css",
-    "static/js/main.23a57214.chunk.js"
+    "static/js/main.3696143f.chunk.js"
   ]
 }
