@@ -133,7 +133,7 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
-    border: 1em solid rgb(63, 35, 3);
+    border: 1em solid rgb(var(--secondary-color));
     box-shadow: 10px 10px 20px black;
 }
 
@@ -202,7 +202,7 @@ h1 {
     width: 300px;
     height: 300px;
     z-index: -1;
-    border: 1em solid rgb(63, 35, 3);
+    border: 1em solid rgb(var(--secondary-color));
     box-shadow: 10px 10px 20px black;
 }
 
@@ -269,7 +269,7 @@ h1 {
 .grid-children {
     height: 150px;
     display: flex;
-    border: 0.8em solid rgb(63, 35, 3);
+    border: 0.8em solid rgb(var(--secondary-color));
     border-radius: 5px;
     background-position: center;
     background-size: cover;
@@ -348,6 +348,9 @@ h1 {
 .star-wars {
     background-image: url(../images/starwars.jpg);
 } 
+.kindly {
+    background-image: url(../images/kindly.jpg);
+}
 
 .btn {
     padding: 0.4em 4em;
