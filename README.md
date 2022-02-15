@@ -5,7 +5,7 @@ I'm Maki (pronounced **Mekki**) From CT USA, and I am a **Full-Stack Web Develop
 ## Skills
  JS / HTML / CSS / Bootstrap / handlebars / jQuery / Node / Express / Sequelize / MySQL / Mongo / Mongoose / React
 
-- 🔭 I’m currently working on 
+- 🔭 I’m currently working on Coderz United
 - 🌱 I’m currently learning React
 - 📫 How to reach me: maki-miko@hotmail.com 
 - ⚡ Fun fact: My favorite sport is ⚽ 
