@@ -3,7 +3,10 @@ I'm Maki (pronounced **Mekki**) From CT USA, and I am a **Full-Stack Web Develop
 
 
 ## Skills
- JS / HTML / CSS / Bootstrap / handlebars / jQuery / Node / Express / Sequelize / MySQL / Mongo / Mongoose / React
+HTML | CSS | Git | Javascript | Web APIs | jQuery | Bulma | Bootstrap | Tailwind CSS
+Node | Express.js | SQL | NOSQL | Sequelize (ORM) | Mongo | Mongoose (ODM)
+NoSQL | PWAs | React | MERN | State | GraghQL | Apollo
+CRUD | TDD | OOP | MVC | Agile | SPA | JWT
 
 - 🔭 I’m currently working on Coderz United
 - 🌱 I’m currently learning React
