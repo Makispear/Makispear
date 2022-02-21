@@ -4,12 +4,12 @@ I'm Maki (pronounced **Mekki**) From CT USA, and I am a **Full-Stack Web Develop
 
 ## Skills
 HTML | CSS | Git | Javascript | Web APIs | jQuery | Bulma | Bootstrap | Tailwind CSS
-Node | Express.js | SQL | NOSQL | Sequelize (ORM) | Mongo | Mongoose (ODM)
-NoSQL | PWAs | React | MERN | State | GraghQL | Apollo
+Node | Express.js | SQL | NoSQL | Sequelize (ORM) | Mongo | Mongoose (ODM)
+NoSQL | PWAs | React | MERN stack | State | GraphQL | Apollo
 CRUD | TDD | OOP | MVC | Agile | SPA | JWT
 
-- 🔭 I’m currently working on Coderz United
-- 🌱 I’m currently learning React
+- 🔭 I'm currently working on Coderz United
+- 🌱 I'm currently learning Typescript
 - 📫 How to reach me: maki-miko@hotmail.com 
 - ⚡ Fun fact: My favorite sport is ⚽ 
 
