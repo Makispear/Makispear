@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers'
 import emailjs from 'emailjs-com';
-import { init } from '@emailjs/browser';
-require('dotenv').config();
-init("CtPuJjxAL86EIc0yB");
 
 function Contact() {
   const [formState, setFormState] = useState({ name: '', subject: '', email: '', message: '' });
@@ -13,17 +10,16 @@ function Contact() {
   const handleSubmit = e => {
     e.preventDefault();
     console.log(formState);
+    console.log(process.env)
 
-    (function () {
-      // https://dashboard.emailjs.com/admin/integration
-      emailjs.init("CtPuJjxAL86EIc0yB");
-    })();
 
-    emailjs.send(process.env.serviceID, process.env.templateID, formState, process.env.userID)
+    emailjs.sendForm("service_r6y1jnr", `template_x8ihxuh`, e.target, "CtPuJjxAL86EIc0yB")
       .then(result => {
-        console.log(result.text);
+        if (result) {
+          alert("message sent");
+        }
       }, function (error) {
-        console.log('FAILED...', error.text);
+        alert('Failed to send message!');
       });
 
     e.target.reset()
