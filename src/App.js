@@ -36,7 +36,7 @@ function App() {
     {
       name: 'LinkedIn',
       src: 'linkedin.png',
-      href: 'http://www.linkedin.com/in/mekki-abo-obaida-59a48b191'
+      href: 'https://www.linkedin.com/in/makiaboabida/'
     },
     {
       name: 'Outlook',
