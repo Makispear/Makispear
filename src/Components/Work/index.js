@@ -3,14 +3,14 @@ import React from "react";
 function Work() {
   const projects = [
     {
-      className: 'anytime-books',
-      deployed_website_link: "https://makispear.github.io/Anytime-Books/",
-      repo: 'https://github.com/Makispear/Anytime-Books',
-      title: "Anytime Books",
-      description: 'My First Front-End Group Project',
+      className: 'kindly',
+      deployed_website_link: "https://kindly-volunteer.herokuapp.com/",
+      repo: "https://github.com/brentocracy/kindly",
+      title: "Kindly",
+      description: 'An App where users can volunteer and showcase their volunteering',
       featured: true,
-      tags: ['HTML', 'CSS', 'Bulma', 'JS', 'API'],
-      testId: 'anytimebooks'
+      tags: ["React", "GraphQL", "MongoDB", "Mongoose", "Node", "Express"],
+      testId: "kindly"
     },
     {
       className: 'homeroom',
@@ -22,6 +22,17 @@ function Work() {
       tags: ['SQL', 'Node', 'Express', 'ORM (Sequelize)'],
       testId: 'homeroom'
     },
+    {
+      className: 'anytime-books',
+      deployed_website_link: "https://makispear.github.io/Anytime-Books/",
+      repo: 'https://github.com/Makispear/Anytime-Books',
+      title: "Anytime Books",
+      description: 'My First Front-End Group Project',
+      featured: true,
+      tags: ['HTML', 'CSS', 'Bulma', 'JS', 'API'],
+      testId: 'anytimebooks'
+    },
+
     {
       className: "run-buddy",
       deployed_website_link: 'https://makispear.github.io/run-buddy/',
@@ -42,16 +53,7 @@ function Work() {
       tags: ['Js', 'Open Weather API', 'Bootstrap 5'],
       testId: 'weatherapp'
     },
-    {
-      className: 'kindly',
-      deployed_website_link: "https://kindly-volunteer.herokuapp.com/",
-      repo: "https://github.com/brentocracy/kindly",
-      title: "Kindly",
-      description: 'An App where users can volunteer and showcase their volunteering',
-      featured: true,
-      tags: ["React", "GraphQL", "MongoDB", "Mongoose", "Node", "Express"],
-      testId: "kindly"
-    },
+
     {
       className: 'star-wars',
       deployed_website_link: 'https://makispear.github.io/Star-Wars/',
