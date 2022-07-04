@@ -9,7 +9,7 @@ NoSQL | PWAs | React | MERN stack | State | GraphQL | Apollo
 CRUD | TDD | OOP | MVC | Agile | SPA | JWT
 
 - 🔭 I'm currently working on Coderz United
-- 🌱 I'm currently learning Typescript
+- 🌱 I'm currently learning Amazon Web Services (AWS)
 - 📫 How to reach me: maki-miko@hotmail.com 
 - ⚡ Fun fact: My favorite sport is ⚽ 
 
