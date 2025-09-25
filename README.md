@@ -8,9 +8,9 @@ Node | Express.js | SQL | NoSQL | Sequelize (ORM) | Mongo | Mongoose (ODM)
 NoSQL | PWAs | React | MERN stack | State | GraphQL | Apollo
 CRUD | TDD | OOP | MVC | Agile | SPA | JWT
 
-- 🔭 I'm currently working on Coderz United
-- 🌱 I'm currently learning Amazon Web Services (AWS)
-- 📫 How to reach me: maki-miko@hotmail.com 
+- 🔭 I'm currently working on Project1
+- 🌱 I'm currently learning Java
+- 📫 How to reach me: makiaboabidamaki@gmail.com
 - ⚡ Fun fact: My favorite sport is ⚽ 
 
 ## Connect with me
