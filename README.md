@@ -21,3 +21,8 @@ CRUD | TDD | OOP | MVC | Agile | SPA | JWT
 
 ![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=Makispear)  
 
+# Contributions during my time at Cigna HealthCare:
+<img width="640" height="153" alt="2022" src="https://github.com/user-attachments/assets/38b8a2d1-5480-476f-88a7-ac79da7bc7fa" />
+<img width="640" height="153" alt="2023" src="https://github.com/user-attachments/assets/5828fd31-65d6-4566-ae4d-024fa370dae6" />
+<img width="640" height="156" alt="2024" src="https://github.com/user-attachments/assets/f94f118c-f5c9-412c-80d1-471768c82f7d" />
+<img width="640" height="156" alt="2025" src="https://github.com/user-attachments/assets/0a3fa488-23c7-4187-884a-373311617f01" />
