@@ -9,7 +9,7 @@ NoSQL | PWAs | React | MERN stack | State | GraphQL | Apollo
 CRUD | TDD | OOP | MVC | Agile | SPA | JWT
 
 - 🔭 I'm currently working on Project1
-- 🌱 I'm currently learning Java
+- 🌱 I'm currently learning AI agent development
 - 📫 How to reach me: makiaboabidamaki@gmail.com
 - ⚡ Fun fact: My favorite sport is ⚽ 
 
