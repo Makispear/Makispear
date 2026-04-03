@@ -1,5 +1,8 @@
 # Maki A. Maki
-I'm Maki (pronounced **Mekki**) From CT USA, and I am a **Full-Stack Web Developer**. I am passionate about helping create solutions to big problems and collaborating with a team of passionate programmers.
+I'm Maki (pronounced **Mekki**) From CT USA, and I am a **Full-Stack Engineerr** Transitioned into Backend Software Engineer. I'm a problem solver first and coding is just a tool I use to solve those problems.
+
+## Recent Celebrations:
+AWS Cloud Practitioner Certification.
 
 
 ## Skills
@@ -8,7 +11,7 @@ Node | Express.js | SQL | NoSQL | Sequelize (ORM) | Mongo | Mongoose (ODM)
 NoSQL | PWAs | React | MERN stack | State | GraphQL | Apollo
 CRUD | TDD | OOP | MVC | Agile | SPA | JWT
 
-- 🔭 I'm currently working on Project1
+- 🔭 I'm currently working on Project1 to practice Java and SpringBoot
 - 🌱 I'm currently learning AI agent development
 - 📫 How to reach me: makiaboabidamaki@gmail.com
 - ⚡ Fun fact: My favorite sport is ⚽ 
