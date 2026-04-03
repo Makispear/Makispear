@@ -1,25 +1,28 @@
 # Maki A. Maki
-I'm Maki (pronounced **Mekki**) From CT USA, and I am a **Full-Stack Engineerr** Transitioned into Backend Software Engineer. I'm a problem solver first and coding is just a tool I use to solve those problems.
+Pronounced **Mekki**. Spent the last 4 years as a contracter working for Cigna HealthCare working on the cloud developing APIs, building and maintaining complex data processing workflows, designing database schemas and managing code deployment.
 
 ## Recent Celebrations:
 AWS Cloud Practitioner Certification.
 
+## My Beautiful Journey:
+Went to Capital Community college where I found my love for software --> I enrolled in the University of Connecticut to learn Software Engineering --> Got a job through Pro Unlimited and was Deployed at Cigna HealthCare. --> Now I'm learning Agentic AI to further my career.
 
 ## Skills
-HTML | CSS | Git | Javascript | Web APIs | jQuery | Bulma | Bootstrap | Tailwind CSS
-Node | Express.js | SQL | NoSQL | Sequelize (ORM) | Mongo | Mongoose (ODM)
-NoSQL | PWAs | React | MERN stack | State | GraphQL | Apollo
-CRUD | TDD | OOP | MVC | Agile | SPA | JWT
+- **Languages:** Python, JavaScript, SQL (PostgreSQL, MySQL), HTML, CSS
+- **Cloud & Infrastructure:** AWS, Terraform, Docker, Jenkins, Linux/Bash
+- **Frameworks & Libraries:** Django, Node.js, Express.js, React.js, GraphQL (Apollo), SQLAlchemy, Prisma, Mongoose, NumPy,  Pandas, SciPy 
+- **Databases & Caching:** PostgreSQL, MySQL, MongoDB, Redis, Teradata Vantage, ETL Pipelines
+- **Testing & Tools:** Git, Jest, Pytest, Postman, JWT, Git, ESLint, GitHub Copilot 
+- **Methodologies:** OOP, CI/CD, TDD, Agile/Scrum, MVC, RESTful API Design
 
+## More Activities
 - 🔭 I'm currently working on Project1 to practice Java and SpringBoot
-- 🌱 I'm currently learning AI agent development
+- 🌱 I'm currently learning AI agent development and studying for my AWS Developer Certification
 - 📫 How to reach me: makiaboabidamaki@gmail.com
-- ⚡ Fun fact: My favorite sport is ⚽ 
+- ⚡ Fun fact: My favorite sport is ⚽
 
 ## Connect with me
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/Makispear)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/http://www.linkedin.com/in/mekki-abo-obaida-59a48b191/)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/@Maki_Aboabida)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://makispear.github.io/Makispear/)  
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Makispear&show_icons=true)  
+  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](www.linkedin.com/in/makiaboabida)   [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://makispear.github.io/Makispear/)  
 
 
 ![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=Makispear)  
