@@ -22,7 +22,7 @@ Went to Capital Community college where I found my love for software --> I enrol
 - ⚡ Fun fact: My favorite sport is ⚽
 
 ## Connect with me
-  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](www.linkedin.com/in/makiaboabida)   [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/icloud.svg' alt='website' height='40'>](https://makispear.github.io/Makispear/)  
+  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](www.linkedin.com/in/makiaboabida)
 
 
 ![GitHub streak stats](https://github-readme-streak-stats.herokuapp.com/?user=Makispear)  
