@@ -1,4 +1,4 @@
-# Maki A. Maki
+# Maki Maki
 Pronounced **Mekki**. Spent the last 4 years as a contracter working for Cigna HealthCare working on the cloud developing APIs, building and maintaining complex data processing workflows, designing database schemas and managing code deployment.
 
 ## Recent Celebrations:
