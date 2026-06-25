@@ -16,10 +16,10 @@ Went to Capital Community College, where I found my love for software --> I enro
 - **Methodologies:** OOP, CI/CD, TDD, Agile/Scrum, MVC, RESTful API Design
 
 ## More Activities
-- 🔭 I'm currently working on Project1 to practice Java and SpringBoot
-- 🌱 I'm currently learning AI agent development and studying for my AWS Developer Certification
+- 🔭 I'm currently working on a project for the Sudanese American Organization
+- 🌱 I'm currently studying for my AWS Data Engineer Certification
 - 📫 How to reach me: makiaboabidamaki@gmail.com
-- ⚡ Fun fact: My favorite sport is ⚽
+- ⚡ Fun fact: My favorite sport is ⚽. GGMU!
 
 ## Connect with me
   [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](www.linkedin.com/in/makiaboabida)
