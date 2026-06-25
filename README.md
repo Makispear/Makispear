@@ -1,11 +1,11 @@
 # Maki Maki
-Pronounced **Mekki**. Spent the last 4 years as a contracter working for Cigna HealthCare working on the cloud developing APIs, building and maintaining complex data processing workflows, designing database schemas and managing code deployment.
+Pronounced **Mekki**. Spent the last 4 years as a contractor working for Cigna HealthCare, working on the cloud, developing APIs, building and maintaining complex data processing workflows, designing database schemas, and managing code deployment.
 
 ## Recent Celebrations:
 AWS Cloud Practitioner Certification.
 
 ## My Beautiful Journey:
-Went to Capital Community college where I found my love for software --> I enrolled in the University of Connecticut to learn Software Engineering --> Got a job through Pro Unlimited and was Deployed at Cigna HealthCare. --> Now I'm learning Agentic AI to further my career.
+Went to Capital Community College, where I found my love for software --> I enrolled in the University of Connecticut to learn Software Engineering --> Got a job through Pro Unlimited and was deployed at Cigna HealthCare. --> Currently looking for a job.
 
 ## Skills
 - **Languages:** Python, JavaScript, SQL (PostgreSQL, MySQL), HTML, CSS
